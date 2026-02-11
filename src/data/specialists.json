@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "name": "Everson Araujo Nauroski",
+    "specialty": "Psicanálise",
+    "crp": "CRP: 08/19329",
+    "experience": "27 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "tags": ["angústia", "ansiedade", "autoconhecimento", "sêniores"],
+    "bio": "No profundo de nossa mente estão nossos traumas, medos e bloqueios. Essas feridas emocionais que carregamos, afetam nossa...",
+    "rating": 5,
+    "review_count": 1332,
+    "session_count": 2985,
+    "price": 107.0,
+    "verified": true,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": [] },
+      { "day": "QUI", "date": "12", "times": ["08:00", "14:00", "15:00"] },
+      { "day": "SEX", "date": "13", "times": ["09:00", "11:00"] },
+      { "day": "SAB", "date": "14", "times": [] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Julia Ost Gudi Agrizzi",
+    "specialty": "Psicologia",
+    "crp": "CRP: 16/7039",
+    "experience": "5 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "tags": ["abuso sexual", "ansiedade", "autoconhecimento", "LGBTQIAPN+"],
+    "bio": "[ASSISTA AO VÍDEO NO PERFIL] Quero te ajudar nesta caminhada rumo ao autoconhecimento e superação. Te convido...",
+    "rating": 5,
+    "review_count": 41,
+    "session_count": 342,
+    "price": 200.0,
+    "verified": true,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": ["10:00", "13:00", "15:00"] },
+      { "day": "QUI", "date": "12", "times": ["08:00", "09:00", "10:00"] },
+      { "day": "SEX", "date": "13", "times": ["08:00", "09:00", "10:00"] },
+      { "day": "SAB", "date": "14", "times": [] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Julia Mansores Levy",
+    "specialty": "Terapeuta",
+    "crp": "",
+    "experience": "3 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "tags": ["ansiedade", "autoconhecimento", "empatia", "pretos"],
+    "bio": "Julia Levy oferece terapias integrativas em São Paulo com florais, aromaterapia e psicoterapia, promovendo...",
+    "rating": 5,
+    "review_count": 7,
+    "session_count": 29,
+    "price": 60.0,
+    "verified": false,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": [] },
+      { "day": "QUI", "date": "12", "times": ["14:00", "15:00", "17:00"] },
+      { "day": "SEX", "date": "13", "times": ["14:00", "15:30", "18:00"] },
+      { "day": "SAB", "date": "14", "times": ["10:00"] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Gleydson Oliveira",
+    "specialty": "Psicologia",
+    "crp": "CRP: 11/17038",
+    "experience": "8 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "tags": ["abuso sexual", "angústia", "ansiedade"],
+    "bio": "Psicólogo clínico há 8 anos, com centenas de atendimentos, especialista em Gestalt-terapia e cursando pós...",
+    "rating": 5,
+    "review_count": 1,
+    "session_count": 1,
+    "price": 60.0,
+    "verified": false,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": [] },
+      { "day": "QUI", "date": "12", "times": ["11:00", "15:30", "18:00"] },
+      { "day": "SEX", "date": "13", "times": ["09:00", "09:30", "10:00"] },
+      { "day": "SAB", "date": "14", "times": [] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Clara Pereira",
+    "specialty": "Terapeuta",
+    "crp": "",
+    "experience": "2 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/women/90.jpg",
+    "tags": ["ansiedade", "autoconhecimento", "autoestima"],
+    "bio": "@thetawship Olá! Desde 2022 ajudo casais e indivíduos a fortalecer laços, melhorar a comunicação e criar...",
+    "rating": 5,
+    "review_count": 9,
+    "session_count": 87,
+    "price": 180.0,
+    "verified": true,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": [] },
+      { "day": "QUI", "date": "12", "times": ["09:00", "09:30", "10:00"] },
+      { "day": "SEX", "date": "13", "times": ["09:00", "09:30", "10:00"] },
+      { "day": "SAB", "date": "14", "times": [] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Bruno P. de Mello",
+    "specialty": "Psicologia",
+    "crp": "CRP: 08/10081",
+    "experience": "17 anos de experiência",
+    "video_url": "#",
+    "image": "https://randomuser.me/api/portraits/men/85.jpg",
+    "tags": ["angústia", "ansiedade", "burnout"],
+    "bio": "www.brunomellopsicanalista.com.br + 22.000 atendimentos! Sou psicólogo há 17 anos (UEL), pós-graduado...",
+    "rating": 5,
+    "review_count": 11,
+    "session_count": 875,
+    "price": 210.0,
+    "verified": true,
+    "slots": [
+      { "day": "QUA", "date": "11", "times": ["19:00"] },
+      { "day": "QUI", "date": "12", "times": [] },
+      { "day": "SEX", "date": "13", "times": ["15:00", "16:10", "17:00"] },
+      { "day": "SAB", "date": "14", "times": ["10:00", "10:30", "11:00"] },
+      { "day": "DOM", "date": "15", "times": [] }
+    ]
+  }
+]

@@ -1,0 +1,271 @@
+/* Common Styles */
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s;
+  display: flex;
+  gap: 1.5rem;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.avatar_container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar {
+  border-radius: 8px; /* Square with radius as in screenshot */
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.name_row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-heading);
+  margin: 0;
+}
+
+.verified {
+  color: var(--color-primary); /* Blue check */
+}
+
+.specialty_row {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.crp {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.experience {
+  font-size: 0.8rem;
+  color: var(--color-text);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tag {
+  background: #f3f4f6;
+  color: var(--color-text);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.bio {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.stats_row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--color-heading);
+}
+
+.star {
+  color: #ffb300;
+  fill: #ffb300;
+}
+
+.stat_text {
+  font-size: 0.7rem;
+  color: #6b7280;
+  font-weight: 400;
+  display: block;
+}
+
+.session_count {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.price_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price_label {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #4caf50; /* Green price */
+  background: #e8f5e9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* GRID view adjustments */
+.card_grid {
+  flex-direction: column;
+}
+
+/* LIST view specific styles */
+.card_list {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.list_info_section {
+  width: 40%;
+  border-right: 1px solid #e5e7eb;
+  padding-right: 1.5rem;
+  min-width: 300px;
+}
+
+.calendar_section {
+  flex: 1;
+  padding-left: 0.5rem;
+}
+
+.calendar_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.calendar_day {
+  text-align: center;
+  flex: 1;
+}
+
+.day_name {
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.day_date {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.time_slots_col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.time_slot {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--color-heading);
+}
+
+.time_slot:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: #f3f4f6;
+}
+
+.more_slots {
+  width: 100%;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 1.5rem; /* Down arrow */
+  cursor: pointer;
+}
+
+.video_link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: #f44336; /* Youtube red-ish */
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.like_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+}
+
+@media (max-width: 900px) {
+  .card_list {
+    flex-direction: column;
+  }
+  .list_info_section {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

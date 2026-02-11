@@ -1,0 +1,190 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sidebar {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-lg);
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid #f3f4f6;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #e1f5fe;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.name_wrapper {
+  text-align: center;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-heading);
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.price_card {
+  background: #f0f9ff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.price_label {
+  font-size: 0.875rem;
+  color: #546e7a;
+  margin-bottom: 0.5rem;
+}
+
+.price_value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.schedule_btn {
+  width: 100%;
+  background: linear-gradient(90deg, #81d4fa, #29b6f6);
+  color: white;
+  padding: 1rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(41, 182, 246, 0.3);
+}
+
+.schedule_btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(41, 182, 246, 0.4);
+}
+
+.main_content {
+  background: white;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid #f3f4f6;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section_title svg {
+  color: var(--color-primary);
+}
+
+.bio {
+  line-height: 1.8;
+  color: #4b5563;
+  font-size: 1.125rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag {
+  background: #f3e5f5;
+  color: #8e24aa;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.experience_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience_item {
+  border-left: 3px solid #e5e7eb;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.experience_item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  background: var(--color-secondary);
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.exp_role {
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: 0.25rem;
+}
+
+.exp_company {
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.exp_date {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: static;
+  }
+}

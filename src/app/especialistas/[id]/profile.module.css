@@ -1,0 +1,396 @@
+.container {
+  min-height: 100vh;
+  background-color: white;
+  font-family: var(--font-family);
+  padding-bottom: 4rem;
+}
+
+.header {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  padding: 1.5rem 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.profile_header_card {
+  max-width: 1000px;
+  margin: -4rem auto 2rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 0;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.bg_purple_top {
+  height: 20px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.profile_content {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Left side of profile card */
+.profile_info {
+  flex: 1;
+}
+
+.main_info {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatar_large {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.name_section h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.specialty_subtitle {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.video_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #ef4444; /* Red */
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.tags_row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: #f3f4f6;
+  color: var(--color-text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.bio_text {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.stats_bar {
+  display: flex;
+  gap: 2rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.stat_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: var(--color-heading);
+  font-size: 0.9rem;
+}
+
+.stat_label {
+  font-weight: 400;
+  color: var(--color-text);
+  font-size: 0.8rem;
+}
+
+.price_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price_val {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+/* Right side calendar */
+.calendar_sidebar {
+  width: 350px;
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+.calendar_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.cal_day_col {
+  text-align: center;
+  flex: 1;
+}
+
+.cal_day_name {
+  font-size: 0.75rem;
+  color: var(--color-text);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cal_day_num {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.time_slots_grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.slot_column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.time_btn {
+  width: 100%;
+  background: white;
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-heading);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time_btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.schedule_btn {
+  width: 100%;
+  background: #d1c4e9;
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  cursor: not-allowed;
+}
+
+.schedule_btn_active {
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Profile Details Section */
+.details_section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.info_block {
+  display: flex;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 2rem;
+}
+
+.block_label {
+  width: 200px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.block_content {
+  flex: 1;
+}
+
+.list_items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list_items li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+.list_items li::before {
+  content: "•";
+  color: var(--color-text);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Reviews Section */
+.reviews_section {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  padding: 3rem 0;
+  margin-top: 4rem;
+  color: white;
+}
+
+.reviews_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.reviews_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 1rem;
+}
+
+.reviews_title h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.reviews_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem 1.5rem;
+}
+
+.review_container_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.review_card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  position: relative;
+  color: #374151;
+  min-height: 180px;
+}
+
+/* Little triangle for speech bubble effect */
+.review_card::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.review_rating {
+  color: #ffb300;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.review_text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.reviewer_name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--color-secondary);
+}
+
+.review_date {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .profile_content {
+    flex-direction: column;
+  }
+  .calendar_sidebar {
+    width: 100%;
+  }
+  .info_block {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .block_label {
+    width: 100%;
+  }
+}
